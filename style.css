@@ -1,0 +1,98 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.caption{
+    text-align: center;
+    color: darkred;
+}
+
+nav{
+    background-color: black;
+    height: 60px;
+    margin: 2% 4%;
+    color: white;
+    font-size: 16px;
+    grid-auto-flow: column;
+
+}
+
+.nav1{
+    display: grid;
+    padding-right: 8%;
+    justify-content: right;
+    align-content: center;
+    grid-gap: 1.5em;
+    padding-top: 0.6%;
+    grid-template-columns: auto auto auto auto;
+
+}
+
+
+
+.button1{
+    background-color: rgb(95, 166, 184);
+    color: white;
+    border-radius: 18px;
+    border-color: transparent;
+    text-align: center;
+    height: 24px;
+    padding-top: 6%;
+    width: 110px;
+    font-size: 14px;
+    margin-top: -6%;
+   }
+
+.nav2{
+    display: grid;
+    grid-gap: 1.5em;
+    justify-content: left;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto 410px auto;
+    height: 60px;
+    padding-left: 565px;
+
+}
+
+.button2{
+    background-color: rgb(95, 166, 184);
+    color: white;
+    border-radius: 18px;
+    border-color: transparent;
+    text-align: center;
+    height: 24px;
+    padding-top: 6%;
+    width: 110px;
+    font-size: 14px;
+    margin-top: -6%;
+   
+}
+
+
+.nav3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-left: 8%;
+    justify-content: left;
+    align-content: center;
+    grid-gap: 1.5em;
+    padding-top: 0.6%;
+}
+
+a{
+    cursor: pointer;
+}
+a:hover{
+    font-weight: bolder;
+    color: ghostwhite;
+    font-weight: 18px;
+}
+.button1:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.button2:hover{
+    background-color: aliceblue;
+    color: black;
+}
